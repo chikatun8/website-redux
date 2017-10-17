@@ -1,0 +1,43 @@
+/* Music ------------------------- */
+
+.shows {
+  position: relative;
+  top: 400px;
+  color: black;
+  background-color: white;
+  height: auto;
+  min-height: 200px;
+}
+
+.show-info {
+  position: relative;
+  bottom: 70px;
+  height: 200px;
+  width: 500px;
+  text-align: right;
+  background-color: white;
+  margin-right: 250px;
+  float: right;
+  border-top: 1px solid #6195FF;
+}
+
+.show-info p {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: black;
+  float: right;
+  margin-bottom: 5px;
+}
+
+.album-odd {
+  background-color: #BBB8CC;
+}
+
+.album-label {
+  display: inline-block;
+  line-height: 1.5;
+  color: white;
+  vertical-align: middle;
+}

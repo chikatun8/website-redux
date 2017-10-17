@@ -1,0 +1,57 @@
+/* Music ------------------------- */
+
+.music {
+  position: relative;
+  top: 400px;
+  color: black;
+  background-color: white;
+  height: auto;
+  min-height: 400px;
+}
+
+.album {
+  height: auto;
+  width: 350px;
+}
+
+.album-title {
+  font-size: 18pt;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: right;
+  padding-top: 8px;
+  margin-right: 25px;
+}
+
+.album-year {
+  position: relative;
+  bottom: 10px;
+  font-size: 12pt;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  color: black;
+  text-align: right;
+  margin-right: 25px;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+#bossa-nova-img {
+  height: 90%;
+  width: 90%;
+}
+
+#bottom-row {
+  margin-top: 25px;
+}
