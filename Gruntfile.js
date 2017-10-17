@@ -30,6 +30,28 @@ module.exports = function (grunt) {
     // Project settings
     config: config,
 
+    //buildcontrol config
+    buildcontrol: {
+      options: {
+        dir: 'dist',
+        commit: true,
+        push: true,
+        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+      },
+      pages: {
+        options: {
+          remote: 'git@github.com:chikatun8/website-redux.git',
+          branch: 'gh-pages'
+        }
+      },
+      main: {
+        options: {
+          remote: 'git@github.com:chikatun8/chikatun8.github.io',
+          branch: 'master'
+        }
+      }
+    },
+
     // Watches files for changes and runs tasks based on the changed files
     watch: {
       bower: {
